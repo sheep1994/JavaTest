@@ -15,9 +15,9 @@ public class BeanOperation {
 		// 拆分字符串
 		String[] result = msg.split("\\|");
 		for (int i = 0; i < result.length; i++) {
-			String temp[] = result[i].split(":", 2);
+			String[] temp = result[i].split(":", 2);
 			String attribute = temp[0];
-			String field[] = attribute.split("\\.");
+			String[] field = attribute.split("\\.");
 			// 多级
 			if (field.length > 2) {
 				Object currentObject = actionObject;
