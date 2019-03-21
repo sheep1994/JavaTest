@@ -30,7 +30,7 @@ class ProxySubject implements InvocationHandler {
 
     /**
      * 实现真实对象的绑定处理，同时返回代理对象
-     * @param target
+     * @param target 真实对象
      * @return 返回代理对象（伪对象）
      */
     public Object bind(Object target) {
