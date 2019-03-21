@@ -41,18 +41,11 @@ class ProxySubject implements InvocationHandler {
         return Proxy.newProxyInstance(target.getClass().getClassLoader(), target.getClass().getInterfaces(), this);
     }
 
-    public void prepare() {
-        System.out.println("准备食材");
-    }
-    public void clear() {
-        System.out.println("收拾碗筷");
-    }
+
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        this.prepare();
         Object ret = method.invoke(this.target, args);
-        this.clear();
         return ret;
     }
 }
@@ -86,6 +79,8 @@ public class TestDemo {
 
     public static void main(String[] args) {
         ISubject subject = (ISubject) new ProxySubject().bind(Factory.getInstance("com.talent.reflect.proxy.dynamic.RealSubject"));
+        System.out.println("准备食材");
         subject.eat("鱼香肉丝", 2);
+        System.out.println("收拾碗筷");
     }
 }
