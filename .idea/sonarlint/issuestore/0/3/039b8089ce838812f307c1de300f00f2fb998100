@@ -1,0 +1,4 @@
+
+hsquid:S3776%"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Ýº«-
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ù±Ñ¾øÿÿÿÿ
+?squid:S1148C"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
