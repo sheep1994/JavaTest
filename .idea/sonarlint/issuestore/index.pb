@@ -21,5 +21,7 @@ T
 $src/com/talent/reflect/TestDemo.java,d/e/de997446ea1f68922d75aee5934da704865de53d
 ^
 .src/com/talent/reflect/util/BeanOperation.java,8/2/824f74a47cdd8f46adfd50cebf047a6ed7d1c623
-Z
-*src/com/talent/reflect/proxy/TestDemo.java,2/7/27a39ca2887af34f6bc6c1fb4f664bfedda8d212
+a
+1src/com/talent/reflect/static_proxy/TestDemo.java,d/1/d1226390c7e3756aadc5e29bf6f0ffdf73564a6e
+b
+2src/com/talent/reflect/proxy/dynamic/TestDemo.java,1/a/1a02afc15e637e2d3dff1a629b27397e6342220d

@@ -1,0 +1,12 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ú×¬ûÿÿÿÿ8Á‘½ú™-
+[
+squid:S106R"9Replace this use of System.out or System.err by a logger.(åÆ“Ïıÿÿÿÿ8¬×Ãü™-
+Fsquid:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‹ò¦û™-
+bsquid:S2147>"DCombine this catch with the one at line 60, which has the same body.(Å¡ß8‹ò¦û™-
+[
+squid:S106T"9Replace this use of System.out or System.err by a logger.(æûÚÔÿÿÿÿÿ8±…Äü™-
+bsquid:S2147@"DCombine this catch with the one at line 60, which has the same body.(ıàÑÎ8‹ò¦û™-
+Fsquid:S1148="#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‹ò¦û™-
+Fsquid:S1148A"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‹ò¦û™-
